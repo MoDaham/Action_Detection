@@ -121,7 +121,7 @@ Required for using the deep Camera (Intel Realsense D455)
 
 Clone the repository (example):
 
-git clone https://github.com/yourusername/projekt-htw.git
+git clone https://github.com/...
 
 
 
