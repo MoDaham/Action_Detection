@@ -1,11 +1,11 @@
 # Action_Detection
 # Patient Observation System
 
-Overview
+#Overview
 This project is designed to observe and monitor patients via a live camera feed. It detects and categorizes body postures (standing, sitting, lying, etc.) and identifies whether a patient’s eyes are open or closed (sleeping/awake). Additionally, it can detect a cup near the patient’s EYE to count drinking events.
 
 
-For Users
+##For Users
 
 
 Purpose
@@ -20,10 +20,10 @@ Drinking Detection: Counting how many times a patient takes a drink.
 
 
 
-Usage
+#Usage
 
 
-Start the Application
+start the Application
 
 Upon launching, you will see a main window with a camera feed frame, status indicators (LED labels), and control buttons.
 
@@ -67,9 +67,9 @@ Displays how many times the application has detected a cup near the EYE.
 
 
 
-For Developers
+#For Developers
 
-Project Structure
+#Project Structure
 
 
 main.py
@@ -89,7 +89,7 @@ Uses a YOLO model for cup detection. Checks the distance between the cup and the
 
 
 
-Dependencies
+#Dependencies
 
 
 Python 3.8+
@@ -114,10 +114,10 @@ pyrealsense2
 Required for using the deep Camera (Intel Realsense D455)
 
 
-Development and Modification
+#Development and Modification
 
 
-Cloning and Setup
+#Cloning and Setup
 
 Clone the repository (example):
 
@@ -125,7 +125,7 @@ git clone https://github.com/yourusername/projekt-htw.git
 
 
 
-Install dependencies (example using pip):
+#Install dependencies (example using pip):
 
 pip install opencv-python mediapipe ultralytics pillow pyrealsense2
 
