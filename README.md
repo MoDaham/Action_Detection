@@ -1,11 +1,11 @@
 # Action_Detection
 # Patient Observation System
 
-#Overview
+# Overview
 This project is designed to observe and monitor patients via a live camera feed. It detects and categorizes body postures (standing, sitting, lying, etc.) and identifies whether a patient’s eyes are open or closed (sleeping/awake). Additionally, it can detect a cup near the patient’s EYE to count drinking events.
 
 
-##For Users
+# For Users
 
 
 Purpose
@@ -20,7 +20,7 @@ Drinking Detection: Counting how many times a patient takes a drink.
 
 
 
-#Usage
+# Usage
 
 
 start the Application
@@ -67,7 +67,7 @@ Displays how many times the application has detected a cup near the EYE.
 
 
 
-#For Developers
+# For Developers
 
 #Project Structure
 
@@ -89,7 +89,7 @@ Uses a YOLO model for cup detection. Checks the distance between the cup and the
 
 
 
-#Dependencies
+# Dependencies
 
 
 Python 3.8+
@@ -114,10 +114,10 @@ pyrealsense2
 Required for using the deep Camera (Intel Realsense D455)
 
 
-#Development and Modification
+# Development and Modification
 
 
-#Cloning and Setup
+# Cloning and Setup
 
 Clone the repository (example):
 
@@ -125,7 +125,7 @@ git clone https://github.com/yourusername/projekt-htw.git
 
 
 
-#Install dependencies (example using pip):
+# Install dependencies (example using pip):
 
 pip install opencv-python mediapipe ultralytics pillow pyrealsense2
 
@@ -134,14 +134,14 @@ pip install opencv-python mediapipe ultralytics pillow pyrealsense2
 
 
 
-Model Files
+# Model Files
 
 By default, the project references yolov8n-pose.pt for posture detection and yolov8s.pt for cup detection.
 If you train or obtain newer models, replace the paths in position_detector.py and drink_detector.py.
 
 
 
-Adjusting Thresholds
+# Adjusting Thresholds
 
 To tweak sleeping detection, modify the eye aspect ratio threshold in position_detector.py.
 To change how close the cup must be to the Eye to count as a “drinking event,” adjust the drinking_distance_threshold and the depth_distance_threshold in drink_detector.py.
@@ -149,7 +149,7 @@ To change how close the cup must be to the Eye to count as a “drinking event,�
 
 
 
-Contributing
+# Contributing
 
 
 Feature Requests: Submit an issue or pull request on GitHub.
@@ -159,4 +159,4 @@ Code Reviews: All pull requests will be reviewed to maintain code quality.
 Testing: Use sample video feeds or a connected webcam. Test different positions and actions (sitting, lying, drinking) for accuracy.
 
 
-Enjoy improving and customizing the Patient Observation System!
+Enjoy improving and customizing the Patient Observation System :)
